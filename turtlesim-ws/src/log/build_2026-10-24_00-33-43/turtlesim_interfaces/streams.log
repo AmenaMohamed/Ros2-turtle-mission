@@ -1,0 +1,32 @@
+[1.356s] Invoking command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces
+[2.421s] -- The C compiler identification is GNU 13.3.0
+[4.101s] -- The CXX compiler identification is GNU 13.3.0
+[5.539s] -- Detecting C compiler ABI info
+[7.842s] -- Detecting C compiler ABI info - done
+[8.043s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.051s] -- Detecting C compile features
+[8.066s] -- Detecting C compile features - done
+[8.356s] -- Detecting CXX compiler ABI info
+[10.418s] -- Detecting CXX compiler ABI info - done
+[10.645s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.653s] -- Detecting CXX compile features
+[10.658s] -- Detecting CXX compile features - done
+[10.805s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[11.357s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[12.749s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[13.481s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[13.671s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[13.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.351s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[14.660s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[14.681s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[14.689s]   rosidl_generate_interfaces() the passed file 'action/NavigateTo.action'
+[14.695s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[14.701s]   '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces'
+[14.709s] Call Stack (most recent call first):
+[14.716s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[14.724s] 
+[14.731s] [0m
+[14.737s] -- Configuring incomplete, errors occurred!
+[14.751s] Invoked command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces

@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+           "missionControl= turtle_mission.missionControl:missionControl",
+            
         ],
     },
 )

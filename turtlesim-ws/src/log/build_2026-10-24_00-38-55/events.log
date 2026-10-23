@@ -1,0 +1,1166 @@
+[0.000000] (-) TimerEvent: {}
+[0.004459] (turtle_mission) JobQueued: {'identifier': 'turtle_mission', 'dependencies': OrderedDict()}
+[0.008843] (turtlesim_interfaces) JobQueued: {'identifier': 'turtlesim_interfaces', 'dependencies': OrderedDict()}
+[0.011466] (turtle_mission) JobStarted: {'identifier': 'turtle_mission'}
+[0.097620] (-) TimerEvent: {}
+[0.200899] (-) TimerEvent: {}
+[0.237121] (turtlesim_interfaces) JobStarted: {'identifier': 'turtlesim_interfaces'}
+[0.301204] (-) TimerEvent: {}
+[0.403915] (-) TimerEvent: {}
+[0.507050] (-) TimerEvent: {}
+[0.624158] (-) TimerEvent: {}
+[0.726323] (-) TimerEvent: {}
+[0.828989] (-) TimerEvent: {}
+[0.931113] (-) TimerEvent: {}
+[0.979671] (turtlesim_interfaces) JobProgress: {'identifier': 'turtlesim_interfaces', 'progress': 'cmake'}
+[1.031265] (-) TimerEvent: {}
+[1.063488] (turtlesim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces'], 'cwd': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/amena/ardupilot_gazebo/build:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/amena/ardupilot_gazebo/models:/home/amena/ardupilot_gazebo/worlds:', 'USER': 'amena', 'GIT_ASKPASS': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amena', 'OLDPWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2', 'TERM_PROGRAM_VERSION': '1.143.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-40d9d776-33ba-4d43-a3e1-56ff23223065.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amena/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amena', 'NAME': 'LAPTOP-T28GBTAQ', 'WSL_INTEROP': '/run/WSL/17258_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/amena/ardupilot/Tools/autotest:/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/easyeda-pro:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-47a1c4b00164ade8.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/amena/.vscode-server/data/User/workspaceStorage/50a222efa2b0ca783de9042368b9bc07/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e48e55bd18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'PYTHONPATH': '/home/amena/ros2_ws/install/ros2_workshop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[1.131437] (-) TimerEvent: {}
+[1.236220] (-) TimerEvent: {}
+[1.338355] (-) TimerEvent: {}
+[1.440000] (-) TimerEvent: {}
+[1.444699] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.540239] (-) TimerEvent: {}
+[1.642018] (-) TimerEvent: {}
+[1.743674] (-) TimerEvent: {}
+[1.845308] (-) TimerEvent: {}
+[1.947062] (-) TimerEvent: {}
+[2.048535] (-) TimerEvent: {}
+[2.150062] (-) TimerEvent: {}
+[2.251511] (-) TimerEvent: {}
+[2.292055] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.351719] (-) TimerEvent: {}
+[2.453497] (-) TimerEvent: {}
+[2.555171] (-) TimerEvent: {}
+[2.659614] (-) TimerEvent: {}
+[2.761637] (-) TimerEvent: {}
+[2.802995] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.861955] (-) TimerEvent: {}
+[2.898996] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.962305] (-) TimerEvent: {}
+[3.005774] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.062636] (-) TimerEvent: {}
+[3.164515] (-) TimerEvent: {}
+[3.189949] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.264799] (-) TimerEvent: {}
+[3.366566] (-) TimerEvent: {}
+[3.418869] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.466895] (-) TimerEvent: {}
+[3.569877] (-) TimerEvent: {}
+[3.671286] (-) TimerEvent: {}
+[3.698053] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.771503] (-) TimerEvent: {}
+[3.873589] (-) TimerEvent: {}
+[3.975263] (-) TimerEvent: {}
+[4.076875] (-) TimerEvent: {}
+[4.180929] (-) TimerEvent: {}
+[4.282643] (-) TimerEvent: {}
+[4.385034] (-) TimerEvent: {}
+[4.488083] (-) TimerEvent: {}
+[4.591202] (-) TimerEvent: {}
+[4.693064] (-) TimerEvent: {}
+[4.796305] (-) TimerEvent: {}
+[4.898124] (-) TimerEvent: {}
+[4.999740] (-) TimerEvent: {}
+[5.101382] (-) TimerEvent: {}
+[5.203565] (-) TimerEvent: {}
+[5.248243] (turtle_mission) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/turtle_mission', 'build', '--build-base', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build', 'install', '--record', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log', '--install-scripts', '$base/lib/turtle_mission', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/amena/ardupilot_gazebo/build:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/amena/ardupilot_gazebo/models:/home/amena/ardupilot_gazebo/worlds:', 'USER': 'amena', 'GIT_ASKPASS': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amena', 'OLDPWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2', 'TERM_PROGRAM_VERSION': '1.143.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-40d9d776-33ba-4d43-a3e1-56ff23223065.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amena/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amena', 'NAME': 'LAPTOP-T28GBTAQ', 'WSL_INTEROP': '/run/WSL/17258_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/amena/ardupilot/Tools/autotest:/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/easyeda-pro:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-47a1c4b00164ade8.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/amena/.vscode-server/data/User/workspaceStorage/50a222efa2b0ca783de9042368b9bc07/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e48e55bd18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission', 'PYTHONPATH': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages:/home/amena/ros2_ws/install/ros2_workshop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[5.303751] (-) TimerEvent: {}
+[5.405404] (-) TimerEvent: {}
+[5.507227] (-) TimerEvent: {}
+[5.609017] (-) TimerEvent: {}
+[5.712766] (-) TimerEvent: {}
+[5.814674] (-) TimerEvent: {}
+[5.916422] (-) TimerEvent: {}
+[6.018972] (-) TimerEvent: {}
+[6.120485] (-) TimerEvent: {}
+[6.221966] (-) TimerEvent: {}
+[6.324459] (-) TimerEvent: {}
+[6.426027] (-) TimerEvent: {}
+[6.527523] (-) TimerEvent: {}
+[6.629478] (-) TimerEvent: {}
+[6.731253] (-) TimerEvent: {}
+[6.832930] (-) TimerEvent: {}
+[6.935756] (-) TimerEvent: {}
+[7.037576] (-) TimerEvent: {}
+[7.139162] (-) TimerEvent: {}
+[7.191726] (turtle_mission) StdoutLine: {'line': b'running egg_info\n'}
+[7.246108] (-) TimerEvent: {}
+[7.292784] (turtle_mission) StdoutLine: {'line': b'writing ../build/turtle_mission/turtle_mission.egg-info/PKG-INFO\n'}
+[7.311012] (turtle_mission) StdoutLine: {'line': b'writing dependency_links to ../build/turtle_mission/turtle_mission.egg-info/dependency_links.txt\n'}
+[7.322797] (turtle_mission) StdoutLine: {'line': b'writing entry points to ../build/turtle_mission/turtle_mission.egg-info/entry_points.txt\n'}
+[7.333730] (turtle_mission) StdoutLine: {'line': b'writing requirements to ../build/turtle_mission/turtle_mission.egg-info/requires.txt\n'}
+[7.342464] (turtle_mission) StdoutLine: {'line': b'writing top-level names to ../build/turtle_mission/turtle_mission.egg-info/top_level.txt\n'}
+[7.347475] (-) TimerEvent: {}
+[7.449187] (-) TimerEvent: {}
+[7.550948] (-) TimerEvent: {}
+[7.596385] (turtle_mission) StdoutLine: {'line': b"reading manifest file '../build/turtle_mission/turtle_mission.egg-info/SOURCES.txt'\n"}
+[7.651085] (-) TimerEvent: {}
+[7.752892] (-) TimerEvent: {}
+[7.793974] (turtle_mission) StdoutLine: {'line': b"writing manifest file '../build/turtle_mission/turtle_mission.egg-info/SOURCES.txt'\n"}
+[7.804380] (turtle_mission) StdoutLine: {'line': b'running build\n'}
+[7.809068] (turtle_mission) StdoutLine: {'line': b'running build_py\n'}
+[7.853172] (-) TimerEvent: {}
+[7.956389] (-) TimerEvent: {}
+[7.958058] (turtle_mission) StdoutLine: {'line': b'running install\n'}
+[7.998325] (turtle_mission) StdoutLine: {'line': b'running install_lib\n'}
+[8.056925] (-) TimerEvent: {}
+[8.158946] (-) TimerEvent: {}
+[8.261287] (-) TimerEvent: {}
+[8.363095] (-) TimerEvent: {}
+[8.465160] (-) TimerEvent: {}
+[8.566902] (-) TimerEvent: {}
+[8.668659] (-) TimerEvent: {}
+[8.709394] (turtle_mission) StdoutLine: {'line': b'running install_data\n'}
+[8.768905] (-) TimerEvent: {}
+[8.870413] (-) TimerEvent: {}
+[8.925105] (turtle_mission) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.970726] (-) TimerEvent: {}
+[9.128803] (-) TimerEvent: {}
+[9.232909] (-) TimerEvent: {}
+[9.328664] (turtle_mission) StdoutLine: {'line': b"removing '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[9.334702] (-) TimerEvent: {}
+[9.436531] (-) TimerEvent: {}
+[9.565776] (-) TimerEvent: {}
+[9.667910] (-) TimerEvent: {}
+[9.674041] (turtle_mission) StdoutLine: {'line': b'Copying ../build/turtle_mission/turtle_mission.egg-info to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission-0.0.0-py3.12.egg-info\n'}
+[9.768435] (-) TimerEvent: {}
+[9.812587] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[9.868803] (-) TimerEvent: {}
+[9.970614] (-) TimerEvent: {}
+[10.072079] (-) TimerEvent: {}
+[10.173611] (-) TimerEvent: {}
+[10.237175] (turtle_mission) StdoutLine: {'line': b'running install_scripts\n'}
+[10.273907] (-) TimerEvent: {}
+[10.375902] (-) TimerEvent: {}
+[10.477396] (-) TimerEvent: {}
+[10.579138] (-) TimerEvent: {}
+[10.680860] (-) TimerEvent: {}
+[10.782965] (-) TimerEvent: {}
+[10.884744] (-) TimerEvent: {}
+[10.986484] (-) TimerEvent: {}
+[11.053187] (turtle_mission) StdoutLine: {'line': b'Installing missionControl script to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/turtle_mission\n'}
+[11.086246] (turtle_mission) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log'\n"}
+[11.091499] (-) TimerEvent: {}
+[11.193249] (-) TimerEvent: {}
+[11.199607] (turtle_mission) CommandEnded: {'returncode': 0}
+[11.293508] (-) TimerEvent: {}
+[11.395401] (-) TimerEvent: {}
+[11.498948] (-) TimerEvent: {}
+[11.600562] (-) TimerEvent: {}
+[11.702109] (-) TimerEvent: {}
+[11.804252] (-) TimerEvent: {}
+[11.906376] (-) TimerEvent: {}
+[11.916904] (turtle_mission) JobEnded: {'identifier': 'turtle_mission', 'rc': 0}
+[12.006989] (-) TimerEvent: {}
+[12.109753] (-) TimerEvent: {}
+[12.212339] (-) TimerEvent: {}
+[12.314434] (-) TimerEvent: {}
+[12.416580] (-) TimerEvent: {}
+[12.518283] (-) TimerEvent: {}
+[12.619816] (-) TimerEvent: {}
+[12.722211] (-) TimerEvent: {}
+[12.824033] (-) TimerEvent: {}
+[12.925755] (-) TimerEvent: {}
+[13.027616] (-) TimerEvent: {}
+[13.130316] (-) TimerEvent: {}
+[13.232314] (-) TimerEvent: {}
+[13.335076] (-) TimerEvent: {}
+[13.437274] (-) TimerEvent: {}
+[13.539556] (-) TimerEvent: {}
+[13.641996] (-) TimerEvent: {}
+[13.744865] (-) TimerEvent: {}
+[13.846531] (-) TimerEvent: {}
+[13.949321] (-) TimerEvent: {}
+[14.051131] (-) TimerEvent: {}
+[14.152619] (-) TimerEvent: {}
+[14.254562] (-) TimerEvent: {}
+[14.358142] (-) TimerEvent: {}
+[14.460961] (-) TimerEvent: {}
+[14.563071] (-) TimerEvent: {}
+[14.664770] (-) TimerEvent: {}
+[14.766464] (-) TimerEvent: {}
+[14.868040] (-) TimerEvent: {}
+[14.970186] (-) TimerEvent: {}
+[15.073745] (-) TimerEvent: {}
+[15.175946] (-) TimerEvent: {}
+[15.278645] (-) TimerEvent: {}
+[15.381288] (-) TimerEvent: {}
+[15.484031] (-) TimerEvent: {}
+[15.585514] (-) TimerEvent: {}
+[15.687961] (-) TimerEvent: {}
+[15.789852] (-) TimerEvent: {}
+[15.893244] (-) TimerEvent: {}
+[15.995097] (-) TimerEvent: {}
+[16.097594] (-) TimerEvent: {}
+[16.271834] (-) TimerEvent: {}
+[16.374350] (-) TimerEvent: {}
+[16.476058] (-) TimerEvent: {}
+[16.577610] (-) TimerEvent: {}
+[16.679126] (-) TimerEvent: {}
+[16.780917] (-) TimerEvent: {}
+[16.882625] (-) TimerEvent: {}
+[16.984205] (-) TimerEvent: {}
+[17.085909] (-) TimerEvent: {}
+[17.187752] (-) TimerEvent: {}
+[17.289683] (-) TimerEvent: {}
+[17.391376] (-) TimerEvent: {}
+[17.495521] (-) TimerEvent: {}
+[17.597571] (-) TimerEvent: {}
+[17.699342] (-) TimerEvent: {}
+[17.801315] (-) TimerEvent: {}
+[17.904022] (-) TimerEvent: {}
+[18.005720] (-) TimerEvent: {}
+[18.115736] (-) TimerEvent: {}
+[18.219082] (-) TimerEvent: {}
+[18.320763] (-) TimerEvent: {}
+[18.422718] (-) TimerEvent: {}
+[18.524290] (-) TimerEvent: {}
+[18.626953] (-) TimerEvent: {}
+[18.728533] (-) TimerEvent: {}
+[18.830221] (-) TimerEvent: {}
+[18.931809] (-) TimerEvent: {}
+[19.033411] (-) TimerEvent: {}
+[19.135215] (-) TimerEvent: {}
+[19.242977] (-) TimerEvent: {}
+[19.345840] (-) TimerEvent: {}
+[19.448153] (-) TimerEvent: {}
+[19.550465] (-) TimerEvent: {}
+[19.652653] (-) TimerEvent: {}
+[19.755565] (-) TimerEvent: {}
+[19.859380] (-) TimerEvent: {}
+[19.961741] (-) TimerEvent: {}
+[20.064476] (-) TimerEvent: {}
+[20.167234] (-) TimerEvent: {}
+[20.170891] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.268159] (-) TimerEvent: {}
+[20.371089] (-) TimerEvent: {}
+[20.473878] (-) TimerEvent: {}
+[20.575487] (-) TimerEvent: {}
+[20.677086] (-) TimerEvent: {}
+[20.778683] (-) TimerEvent: {}
+[20.881389] (-) TimerEvent: {}
+[20.983350] (-) TimerEvent: {}
+[21.085758] (-) TimerEvent: {}
+[21.187396] (-) TimerEvent: {}
+[21.289068] (-) TimerEvent: {}
+[21.391051] (-) TimerEvent: {}
+[21.493055] (-) TimerEvent: {}
+[21.594959] (-) TimerEvent: {}
+[21.696455] (-) TimerEvent: {}
+[21.798334] (-) TimerEvent: {}
+[21.900166] (-) TimerEvent: {}
+[22.001560] (-) TimerEvent: {}
+[22.103948] (-) TimerEvent: {}
+[22.206112] (-) TimerEvent: {}
+[22.307646] (-) TimerEvent: {}
+[22.410062] (-) TimerEvent: {}
+[22.511576] (-) TimerEvent: {}
+[22.613333] (-) TimerEvent: {}
+[22.715015] (-) TimerEvent: {}
+[22.816727] (-) TimerEvent: {}
+[22.918652] (-) TimerEvent: {}
+[23.020199] (-) TimerEvent: {}
+[23.121904] (-) TimerEvent: {}
+[23.224471] (-) TimerEvent: {}
+[23.326901] (-) TimerEvent: {}
+[23.428648] (-) TimerEvent: {}
+[23.530499] (-) TimerEvent: {}
+[23.589987] (turtlesim_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.630840] (-) TimerEvent: {}
+[23.656409] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[23.731874] (-) TimerEvent: {}
+[23.834855] (-) TimerEvent: {}
+[23.932214] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[23.936030] (-) TimerEvent: {}
+[24.037316] (-) TimerEvent: {}
+[24.140000] (-) TimerEvent: {}
+[24.241737] (-) TimerEvent: {}
+[24.343432] (-) TimerEvent: {}
+[24.445457] (-) TimerEvent: {}
+[24.547165] (-) TimerEvent: {}
+[24.649176] (-) TimerEvent: {}
+[24.751798] (-) TimerEvent: {}
+[24.853451] (-) TimerEvent: {}
+[24.956109] (-) TimerEvent: {}
+[25.057746] (-) TimerEvent: {}
+[25.159738] (-) TimerEvent: {}
+[25.262179] (-) TimerEvent: {}
+[25.294949] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[25.362603] (-) TimerEvent: {}
+[25.464089] (-) TimerEvent: {}
+[25.565857] (-) TimerEvent: {}
+[25.667697] (-) TimerEvent: {}
+[25.769356] (-) TimerEvent: {}
+[25.871683] (-) TimerEvent: {}
+[25.973366] (-) TimerEvent: {}
+[26.075837] (-) TimerEvent: {}
+[26.177786] (-) TimerEvent: {}
+[26.280143] (-) TimerEvent: {}
+[26.381679] (-) TimerEvent: {}
+[26.483091] (-) TimerEvent: {}
+[26.585932] (-) TimerEvent: {}
+[26.687448] (-) TimerEvent: {}
+[26.790166] (-) TimerEvent: {}
+[26.892486] (-) TimerEvent: {}
+[26.995101] (-) TimerEvent: {}
+[27.096906] (-) TimerEvent: {}
+[27.199161] (-) TimerEvent: {}
+[27.314557] (-) TimerEvent: {}
+[27.416140] (-) TimerEvent: {}
+[27.517681] (-) TimerEvent: {}
+[27.619407] (-) TimerEvent: {}
+[27.722154] (-) TimerEvent: {}
+[27.824629] (-) TimerEvent: {}
+[27.929710] (-) TimerEvent: {}
+[28.031479] (-) TimerEvent: {}
+[28.133024] (-) TimerEvent: {}
+[28.234646] (-) TimerEvent: {}
+[28.336495] (-) TimerEvent: {}
+[28.438278] (-) TimerEvent: {}
+[28.540363] (-) TimerEvent: {}
+[28.641944] (-) TimerEvent: {}
+[28.743460] (-) TimerEvent: {}
+[28.845087] (-) TimerEvent: {}
+[28.946691] (-) TimerEvent: {}
+[28.971482] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[29.047029] (-) TimerEvent: {}
+[29.069756] (turtlesim_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[29.148350] (-) TimerEvent: {}
+[29.249983] (-) TimerEvent: {}
+[29.352206] (-) TimerEvent: {}
+[29.454524] (-) TimerEvent: {}
+[29.556770] (-) TimerEvent: {}
+[29.658394] (-) TimerEvent: {}
+[29.761130] (-) TimerEvent: {}
+[29.862963] (-) TimerEvent: {}
+[29.964503] (-) TimerEvent: {}
+[30.067037] (-) TimerEvent: {}
+[30.168597] (-) TimerEvent: {}
+[30.270908] (-) TimerEvent: {}
+[30.373397] (-) TimerEvent: {}
+[30.475104] (-) TimerEvent: {}
+[30.577044] (-) TimerEvent: {}
+[30.678470] (-) TimerEvent: {}
+[30.781063] (-) TimerEvent: {}
+[30.878502] (turtlesim_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.882868] (-) TimerEvent: {}
+[30.984258] (-) TimerEvent: {}
+[31.085701] (-) TimerEvent: {}
+[31.187139] (-) TimerEvent: {}
+[31.289971] (-) TimerEvent: {}
+[31.391657] (-) TimerEvent: {}
+[31.411552] (turtlesim_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.491853] (-) TimerEvent: {}
+[31.593413] (-) TimerEvent: {}
+[31.695079] (-) TimerEvent: {}
+[31.796566] (-) TimerEvent: {}
+[31.898021] (-) TimerEvent: {}
+[31.999451] (-) TimerEvent: {}
+[32.101118] (-) TimerEvent: {}
+[32.202565] (-) TimerEvent: {}
+[32.364794] (-) TimerEvent: {}
+[32.440268] (turtlesim_interfaces) StdoutLine: {'line': b'-- Configuring done (31.1s)\n'}
+[32.465131] (-) TimerEvent: {}
+[32.568056] (-) TimerEvent: {}
+[32.670427] (-) TimerEvent: {}
+[32.772001] (-) TimerEvent: {}
+[32.873551] (-) TimerEvent: {}
+[32.975064] (-) TimerEvent: {}
+[33.076579] (-) TimerEvent: {}
+[33.178126] (-) TimerEvent: {}
+[33.279499] (-) TimerEvent: {}
+[33.380989] (-) TimerEvent: {}
+[33.482517] (-) TimerEvent: {}
+[33.585227] (-) TimerEvent: {}
+[33.686661] (-) TimerEvent: {}
+[33.788638] (-) TimerEvent: {}
+[33.890622] (-) TimerEvent: {}
+[33.993233] (-) TimerEvent: {}
+[34.094742] (-) TimerEvent: {}
+[34.197169] (-) TimerEvent: {}
+[34.298744] (-) TimerEvent: {}
+[34.400411] (-) TimerEvent: {}
+[34.501778] (-) TimerEvent: {}
+[34.605283] (-) TimerEvent: {}
+[34.707419] (-) TimerEvent: {}
+[34.808968] (-) TimerEvent: {}
+[34.910935] (-) TimerEvent: {}
+[35.015071] (-) TimerEvent: {}
+[35.116613] (-) TimerEvent: {}
+[35.218703] (-) TimerEvent: {}
+[35.320186] (-) TimerEvent: {}
+[35.421603] (-) TimerEvent: {}
+[35.523124] (-) TimerEvent: {}
+[35.625685] (-) TimerEvent: {}
+[35.727183] (-) TimerEvent: {}
+[35.828906] (-) TimerEvent: {}
+[35.930448] (-) TimerEvent: {}
+[36.033021] (-) TimerEvent: {}
+[36.136026] (-) TimerEvent: {}
+[36.237479] (-) TimerEvent: {}
+[36.340356] (-) TimerEvent: {}
+[36.442008] (-) TimerEvent: {}
+[36.544616] (-) TimerEvent: {}
+[36.646065] (-) TimerEvent: {}
+[36.748996] (-) TimerEvent: {}
+[36.850556] (-) TimerEvent: {}
+[36.955369] (-) TimerEvent: {}
+[37.059174] (-) TimerEvent: {}
+[37.109699] (turtlesim_interfaces) StdoutLine: {'line': b'-- Generating done (4.3s)\n'}
+[37.160375] (-) TimerEvent: {}
+[37.261785] (-) TimerEvent: {}
+[37.363835] (-) TimerEvent: {}
+[37.470783] (-) TimerEvent: {}
+[37.573219] (-) TimerEvent: {}
+[37.675223] (-) TimerEvent: {}
+[37.778154] (-) TimerEvent: {}
+[37.880286] (-) TimerEvent: {}
+[37.982260] (-) TimerEvent: {}
+[38.083967] (-) TimerEvent: {}
+[38.185797] (-) TimerEvent: {}
+[38.287256] (-) TimerEvent: {}
+[38.388815] (-) TimerEvent: {}
+[38.490313] (-) TimerEvent: {}
+[38.592047] (-) TimerEvent: {}
+[38.743666] (-) TimerEvent: {}
+[38.854444] (-) TimerEvent: {}
+[38.956536] (-) TimerEvent: {}
+[39.057859] (-) TimerEvent: {}
+[39.160123] (-) TimerEvent: {}
+[39.261547] (-) TimerEvent: {}
+[39.331010] (turtlesim_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces\n'}
+[39.360891] (turtlesim_interfaces) CommandEnded: {'returncode': 0}
+[39.367110] (-) TimerEvent: {}
+[39.372145] (turtlesim_interfaces) JobProgress: {'identifier': 'turtlesim_interfaces', 'progress': 'build'}
+[39.391502] (turtlesim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', '--', '-j4', '-l4'], 'cwd': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/amena/ardupilot_gazebo/build:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/amena/ardupilot_gazebo/models:/home/amena/ardupilot_gazebo/worlds:', 'USER': 'amena', 'GIT_ASKPASS': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amena', 'OLDPWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2', 'TERM_PROGRAM_VERSION': '1.143.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-40d9d776-33ba-4d43-a3e1-56ff23223065.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amena/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amena', 'NAME': 'LAPTOP-T28GBTAQ', 'WSL_INTEROP': '/run/WSL/17258_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/amena/ardupilot/Tools/autotest:/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/easyeda-pro:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-47a1c4b00164ade8.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/amena/.vscode-server/data/User/workspaceStorage/50a222efa2b0ca783de9042368b9bc07/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e48e55bd18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'PYTHONPATH': '/home/amena/ros2_ws/install/ros2_workshop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[39.467268] (-) TimerEvent: {}
+[39.568742] (-) TimerEvent: {}
+[39.670184] (-) TimerEvent: {}
+[39.771851] (-) TimerEvent: {}
+[39.873702] (-) TimerEvent: {}
+[39.983118] (-) TimerEvent: {}
+[40.024837] (turtlesim_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[40.083276] (-) TimerEvent: {}
+[40.092980] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[40.189777] (-) TimerEvent: {}
+[40.245418] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_turtlesim_interfaces\n'}
+[40.291996] (-) TimerEvent: {}
+[40.399097] (-) TimerEvent: {}
+[40.501529] (-) TimerEvent: {}
+[40.603035] (-) TimerEvent: {}
+[40.709181] (-) TimerEvent: {}
+[40.813912] (-) TimerEvent: {}
+[40.915748] (-) TimerEvent: {}
+[41.020448] (-) TimerEvent: {}
+[41.103747] (turtlesim_interfaces) StdoutLine: {'line': b'[  5%] Built target turtlesim_interfaces__rosidl_generator_type_description\n'}
+[41.120900] (-) TimerEvent: {}
+[41.223253] (-) TimerEvent: {}
+[41.286792] (turtlesim_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[41.327049] (-) TimerEvent: {}
+[41.427997] (turtlesim_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[41.434512] (-) TimerEvent: {}
+[41.518473] (turtlesim_interfaces) StdoutLine: {'line': b'[ 11%] Built target turtlesim_interfaces__rs\n'}
+[41.535027] (-) TimerEvent: {}
+[41.540001] (turtlesim_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[41.549720] (turtlesim_interfaces) StdoutLine: {'line': b'creating turtlesim_interfaces.egg-info\n'}
+[41.635207] (-) TimerEvent: {}
+[41.637253] (turtlesim_interfaces) StdoutLine: {'line': b'writing turtlesim_interfaces.egg-info/PKG-INFO\n'}
+[41.651850] (turtlesim_interfaces) StdoutLine: {'line': b'writing dependency_links to turtlesim_interfaces.egg-info/dependency_links.txt\n'}
+[41.675524] (turtlesim_interfaces) StdoutLine: {'line': b'writing top-level names to turtlesim_interfaces.egg-info/top_level.txt\n'}
+[41.690182] (turtlesim_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlesim_interfaces.egg-info/SOURCES.txt'\n"}
+[41.735428] (-) TimerEvent: {}
+[41.837036] (-) TimerEvent: {}
+[41.946682] (-) TimerEvent: {}
+[41.957673] (turtlesim_interfaces) StdoutLine: {'line': b"reading manifest file 'turtlesim_interfaces.egg-info/SOURCES.txt'\n"}
+[42.020600] (turtlesim_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlesim_interfaces.egg-info/SOURCES.txt'\n"}
+[42.046786] (-) TimerEvent: {}
+[42.153442] (-) TimerEvent: {}
+[42.203169] (turtlesim_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_turtlesim_interfaces_egg\n'}
+[42.253781] (-) TimerEvent: {}
+[42.360516] (-) TimerEvent: {}
+[42.465002] (-) TimerEvent: {}
+[42.567239] (-) TimerEvent: {}
+[42.671274] (-) TimerEvent: {}
+[42.773210] (-) TimerEvent: {}
+[42.800756] (turtlesim_interfaces) StdoutLine: {'line': b'[ 11%] Built target turtlesim_interfaces__cpp\n'}
+[42.873438] (-) TimerEvent: {}
+[42.956158] (turtlesim_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/srv/detail/set_destination__description.c.o\x1b[0m\n'}
+[42.961798] (turtlesim_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/srv/detail/set_destination__functions.c.o\x1b[0m\n'}
+[42.973705] (-) TimerEvent: {}
+[42.988143] (turtlesim_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_interfaces/srv/detail/set_destination__type_support.c.o\x1b[0m\n'}
+[43.073991] (-) TimerEvent: {}
+[43.176267] (-) TimerEvent: {}
+[43.278114] (-) TimerEvent: {}
+[43.379701] (-) TimerEvent: {}
+[43.481850] (-) TimerEvent: {}
+[43.587815] (-) TimerEvent: {}
+[43.679498] (turtlesim_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[43.687074] (-) TimerEvent: {}
+[43.789432] (-) TimerEvent: {}
+[43.892086] (-) TimerEvent: {}
+[43.994550] (-) TimerEvent: {}
+[44.096332] (-) TimerEvent: {}
+[44.197785] (-) TimerEvent: {}
+[44.262431] (turtlesim_interfaces) StdoutLine: {'line': b'[ 22%] Built target turtlesim_interfaces__rosidl_generator_c\n'}
+[44.298449] (-) TimerEvent: {}
+[44.401131] (-) TimerEvent: {}
+[44.408542] (turtlesim_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[44.418352] (turtlesim_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[44.435086] (turtlesim_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[44.456788] (turtlesim_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[44.501325] (-) TimerEvent: {}
+[44.603083] (-) TimerEvent: {}
+[44.707253] (-) TimerEvent: {}
+[44.808725] (-) TimerEvent: {}
+[44.919226] (-) TimerEvent: {}
+[45.020707] (-) TimerEvent: {}
+[45.122431] (-) TimerEvent: {}
+[45.227170] (-) TimerEvent: {}
+[45.329279] (-) TimerEvent: {}
+[45.433876] (-) TimerEvent: {}
+[45.455180] (turtlesim_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_interfaces/srv/set_destination__type_support.cpp.o\x1b[0m\n'}
+[45.534183] (-) TimerEvent: {}
+[45.640266] (-) TimerEvent: {}
+[45.742748] (-) TimerEvent: {}
+[45.750032] (turtlesim_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/srv/detail/set_destination__type_support.c.o\x1b[0m\n'}
+[45.843120] (-) TimerEvent: {}
+[45.876826] (turtlesim_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_interfaces/srv/detail/set_destination__type_support_c.cpp.o\x1b[0m\n'}
+[45.930464] (turtlesim_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_interfaces/srv/detail/dds_fastrtps/set_destination__type_support.cpp.o\x1b[0m\n'}
+[45.943321] (-) TimerEvent: {}
+[46.044835] (-) TimerEvent: {}
+[46.147660] (-) TimerEvent: {}
+[46.250360] (-) TimerEvent: {}
+[46.353344] (-) TimerEvent: {}
+[46.456498] (-) TimerEvent: {}
+[46.520716] (turtlesim_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[46.556770] (-) TimerEvent: {}
+[46.659959] (-) TimerEvent: {}
+[46.762038] (-) TimerEvent: {}
+[46.848399] (turtlesim_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[46.862250] (-) TimerEvent: {}
+[46.965044] (-) TimerEvent: {}
+[47.072246] (-) TimerEvent: {}
+[47.174411] (-) TimerEvent: {}
+[47.276626] (-) TimerEvent: {}
+[47.323694] (turtlesim_interfaces) StdoutLine: {'line': b'[ 51%] Built target turtlesim_interfaces__rosidl_typesupport_c\n'}
+[47.377094] (-) TimerEvent: {}
+[47.480074] (-) TimerEvent: {}
+[47.524023] (turtlesim_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[47.580667] (-) TimerEvent: {}
+[47.686908] (-) TimerEvent: {}
+[47.772484] (turtlesim_interfaces) StdoutLine: {'line': b'[ 54%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_c\n'}
+[47.787052] (-) TimerEvent: {}
+[47.888821] (-) TimerEvent: {}
+[47.918916] (turtlesim_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[47.989272] (-) TimerEvent: {}
+[48.091608] (-) TimerEvent: {}
+[48.193617] (-) TimerEvent: {}
+[48.296231] (-) TimerEvent: {}
+[48.400866] (-) TimerEvent: {}
+[48.502877] (-) TimerEvent: {}
+[48.604232] (-) TimerEvent: {}
+[48.708233] (-) TimerEvent: {}
+[48.812386] (-) TimerEvent: {}
+[48.914990] (-) TimerEvent: {}
+[49.016881] (-) TimerEvent: {}
+[49.091295] (turtlesim_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_interfaces/srv/detail/set_destination__type_support.cpp.o\x1b[0m\n'}
+[49.117255] (-) TimerEvent: {}
+[49.219612] (turtlesim_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_interfaces/srv/set_destination__type_support.cpp.o\x1b[0m\n'}
+[49.229571] (-) TimerEvent: {}
+[49.333151] (-) TimerEvent: {}
+[49.436463] (-) TimerEvent: {}
+[49.538663] (-) TimerEvent: {}
+[49.641906] (-) TimerEvent: {}
+[49.748419] (-) TimerEvent: {}
+[49.851773] (-) TimerEvent: {}
+[49.954654] (-) TimerEvent: {}
+[50.058967] (-) TimerEvent: {}
+[50.161874] (-) TimerEvent: {}
+[50.279427] (-) TimerEvent: {}
+[50.386628] (-) TimerEvent: {}
+[50.504555] (-) TimerEvent: {}
+[50.849700] (-) TimerEvent: {}
+[50.954018] (-) TimerEvent: {}
+[51.116227] (-) TimerEvent: {}
+[51.242735] (-) TimerEvent: {}
+[51.410619] (-) TimerEvent: {}
+[51.575681] (-) TimerEvent: {}
+[51.690354] (-) TimerEvent: {}
+[51.793346] (-) TimerEvent: {}
+[51.896220] (-) TimerEvent: {}
+[52.000716] (-) TimerEvent: {}
+[52.102390] (-) TimerEvent: {}
+[52.159825] (turtlesim_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[52.274157] (-) TimerEvent: {}
+[52.381474] (-) TimerEvent: {}
+[52.488261] (-) TimerEvent: {}
+[52.593576] (-) TimerEvent: {}
+[52.702136] (-) TimerEvent: {}
+[52.811065] (-) TimerEvent: {}
+[52.923874] (-) TimerEvent: {}
+[53.034007] (-) TimerEvent: {}
+[53.156822] (-) TimerEvent: {}
+[53.266016] (-) TimerEvent: {}
+[53.370282] (-) TimerEvent: {}
+[53.475265] (-) TimerEvent: {}
+[53.583236] (-) TimerEvent: {}
+[53.686223] (-) TimerEvent: {}
+[53.789776] (-) TimerEvent: {}
+[53.896323] (-) TimerEvent: {}
+[53.988677] (turtlesim_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[54.015324] (-) TimerEvent: {}
+[54.130104] (-) TimerEvent: {}
+[54.233913] (-) TimerEvent: {}
+[54.364138] (-) TimerEvent: {}
+[54.492935] (-) TimerEvent: {}
+[54.594845] (-) TimerEvent: {}
+[54.698511] (-) TimerEvent: {}
+[54.801801] (-) TimerEvent: {}
+[54.847283] (turtlesim_interfaces) StdoutLine: {'line': b'[ 68%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[54.902045] (-) TimerEvent: {}
+[55.006368] (-) TimerEvent: {}
+[55.132070] (-) TimerEvent: {}
+[55.241491] (-) TimerEvent: {}
+[55.346376] (-) TimerEvent: {}
+[55.454730] (-) TimerEvent: {}
+[55.460421] (turtlesim_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[55.556356] (-) TimerEvent: {}
+[55.662984] (-) TimerEvent: {}
+[55.769298] (-) TimerEvent: {}
+[55.871328] (-) TimerEvent: {}
+[55.972867] (-) TimerEvent: {}
+[56.075739] (-) TimerEvent: {}
+[56.179110] (-) TimerEvent: {}
+[56.288345] (-) TimerEvent: {}
+[56.395518] (-) TimerEvent: {}
+[56.507526] (-) TimerEvent: {}
+[56.566582] (turtlesim_interfaces) StdoutLine: {'line': b'[ 71%] Built target turtlesim_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[56.607733] (-) TimerEvent: {}
+[56.628126] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[56.707952] (-) TimerEvent: {}
+[56.809429] (-) TimerEvent: {}
+[56.911172] (-) TimerEvent: {}
+[57.016012] (-) TimerEvent: {}
+[57.034772] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlesim_interfaces__rosidl_typesupport_cpp\n'}
+[57.116193] (-) TimerEvent: {}
+[57.217731] (-) TimerEvent: {}
+[57.319433] (-) TimerEvent: {}
+[57.421019] (-) TimerEvent: {}
+[57.522751] (-) TimerEvent: {}
+[57.624647] (-) TimerEvent: {}
+[57.701623] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlesim_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[57.724905] (-) TimerEvent: {}
+[57.826724] (-) TimerEvent: {}
+[57.879473] (turtlesim_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlesim_interfaces\n'}
+[57.927106] (-) TimerEvent: {}
+[58.028689] (-) TimerEvent: {}
+[58.101149] (turtlesim_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[58.128965] (-) TimerEvent: {}
+[58.230855] (-) TimerEvent: {}
+[58.333055] (-) TimerEvent: {}
+[58.436094] (-) TimerEvent: {}
+[58.539433] (-) TimerEvent: {}
+[58.643362] (-) TimerEvent: {}
+[58.745834] (-) TimerEvent: {}
+[58.848526] (-) TimerEvent: {}
+[58.953147] (-) TimerEvent: {}
+[59.054979] (-) TimerEvent: {}
+[59.159775] (-) TimerEvent: {}
+[59.263122] (-) TimerEvent: {}
+[59.364752] (-) TimerEvent: {}
+[59.657009] (-) TimerEvent: {}
+[59.758881] (-) TimerEvent: {}
+[59.861077] (-) TimerEvent: {}
+[59.962967] (-) TimerEvent: {}
+[60.064923] (-) TimerEvent: {}
+[60.091596] (turtlesim_interfaces) StdoutLine: {'line': b'[ 77%] Built target turtlesim_interfaces__py\n'}
+[60.165286] (-) TimerEvent: {}
+[60.268083] (-) TimerEvent: {}
+[60.371106] (-) TimerEvent: {}
+[60.500996] (-) TimerEvent: {}
+[60.843438] (-) TimerEvent: {}
+[60.956038] (-) TimerEvent: {}
+[61.001099] (turtlesim_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/srv/_set_destination_s.c.o\x1b[0m\n'}
+[61.056354] (-) TimerEvent: {}
+[61.167384] (-) TimerEvent: {}
+[61.272122] (-) TimerEvent: {}
+[61.377460] (-) TimerEvent: {}
+[61.479197] (-) TimerEvent: {}
+[61.581368] (-) TimerEvent: {}
+[61.687585] (-) TimerEvent: {}
+[61.789274] (-) TimerEvent: {}
+[61.891297] (-) TimerEvent: {}
+[61.994213] (-) TimerEvent: {}
+[62.096717] (-) TimerEvent: {}
+[62.201750] (-) TimerEvent: {}
+[62.304249] (-) TimerEvent: {}
+[62.406099] (-) TimerEvent: {}
+[62.508178] (-) TimerEvent: {}
+[62.610670] (-) TimerEvent: {}
+[62.714845] (-) TimerEvent: {}
+[62.817057] (-) TimerEvent: {}
+[62.850448] (turtlesim_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[62.917927] (-) TimerEvent: {}
+[63.019407] (-) TimerEvent: {}
+[63.121414] (-) TimerEvent: {}
+[63.224475] (-) TimerEvent: {}
+[63.326158] (-) TimerEvent: {}
+[63.390909] (turtlesim_interfaces) StdoutLine: {'line': b'[ 82%] Built target turtlesim_interfaces__rosidl_generator_py\n'}
+[63.426556] (-) TimerEvent: {}
+[63.529983] (-) TimerEvent: {}
+[63.634344] (-) TimerEvent: {}
+[63.723113] (turtlesim_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[63.727994] (turtlesim_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[63.734767] (-) TimerEvent: {}
+[63.737970] (turtlesim_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[63.835093] (-) TimerEvent: {}
+[63.938142] (-) TimerEvent: {}
+[64.039587] (-) TimerEvent: {}
+[64.147211] (-) TimerEvent: {}
+[64.254760] (-) TimerEvent: {}
+[64.356812] (-) TimerEvent: {}
+[64.459217] (-) TimerEvent: {}
+[64.563562] (-) TimerEvent: {}
+[64.666324] (-) TimerEvent: {}
+[64.770036] (-) TimerEvent: {}
+[64.872104] (-) TimerEvent: {}
+[64.976912] (-) TimerEvent: {}
+[65.028836] (turtlesim_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[65.077318] (-) TimerEvent: {}
+[65.180499] (-) TimerEvent: {}
+[65.283885] (-) TimerEvent: {}
+[65.315523] (turtlesim_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[65.365538] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[65.384035] (-) TimerEvent: {}
+[65.495255] (-) TimerEvent: {}
+[65.597865] (-) TimerEvent: {}
+[65.699650] (-) TimerEvent: {}
+[65.801620] (-) TimerEvent: {}
+[65.888189] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_interfaces_s__rosidl_typesupport_c\n'}
+[65.901912] (-) TimerEvent: {}
+[66.003522] (-) TimerEvent: {}
+[66.106041] (-) TimerEvent: {}
+[66.132178] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[66.211618] (-) TimerEvent: {}
+[66.263116] (turtlesim_interfaces) StdoutLine: {'line': b'[100%] Built target turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[66.311844] (-) TimerEvent: {}
+[66.413589] (-) TimerEvent: {}
+[66.515295] (-) TimerEvent: {}
+[66.570383] (turtlesim_interfaces) CommandEnded: {'returncode': 0}
+[66.602697] (turtlesim_interfaces) JobProgress: {'identifier': 'turtlesim_interfaces', 'progress': 'install'}
+[66.615499] (-) TimerEvent: {}
+[66.640931] (turtlesim_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces'], 'cwd': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/amena/ardupilot_gazebo/build:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/amena/ardupilot_gazebo/models:/home/amena/ardupilot_gazebo/worlds:', 'USER': 'amena', 'GIT_ASKPASS': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amena', 'OLDPWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2', 'TERM_PROGRAM_VERSION': '1.143.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-40d9d776-33ba-4d43-a3e1-56ff23223065.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amena/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amena', 'NAME': 'LAPTOP-T28GBTAQ', 'WSL_INTEROP': '/run/WSL/17258_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/amena/ardupilot/Tools/autotest:/home/amena/.vscode-server/bin/2d0b7506a36c1d6db9a466440131a8e01eab2289/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/easyeda-pro:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-47a1c4b00164ade8.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/amena/.vscode-server/data/User/workspaceStorage/50a222efa2b0ca783de9042368b9bc07/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e48e55bd18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'PYTHONPATH': '/home/amena/ros2_ws/install/ros2_workshop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[66.688032] (turtlesim_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[66.715713] (-) TimerEvent: {}
+[66.782009] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlesim_interfaces\n'}
+[66.816500] (-) TimerEvent: {}
+[66.918130] (-) TimerEvent: {}
+[66.979686] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/srv/SetDestination.json\n'}
+[67.018402] (-) TimerEvent: {}
+[67.108442] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces\n'}
+[67.118705] (-) TimerEvent: {}
+[67.160037] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg\n'}
+[67.219305] (-) TimerEvent: {}
+[67.231414] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[67.319523] (-) TimerEvent: {}
+[67.408393] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv\n'}
+[67.419748] (-) TimerEvent: {}
+[67.477389] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail\n'}
+[67.519952] (-) TimerEvent: {}
+[67.569765] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__description.c\n'}
+[67.620893] (-) TimerEvent: {}
+[67.722545] (-) TimerEvent: {}
+[67.788582] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__functions.c\n'}
+[67.823538] (-) TimerEvent: {}
+[67.926215] (-) TimerEvent: {}
+[67.969856] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__functions.h\n'}
+[68.026507] (-) TimerEvent: {}
+[68.127954] (-) TimerEvent: {}
+[68.144216] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__struct.h\n'}
+[68.228227] (-) TimerEvent: {}
+[68.329759] (-) TimerEvent: {}
+[68.423737] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__type_support.c\n'}
+[68.430106] (-) TimerEvent: {}
+[68.534670] (-) TimerEvent: {}
+[68.636278] (-) TimerEvent: {}
+[68.642574] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__type_support.h\n'}
+[68.736556] (-) TimerEvent: {}
+[68.838285] (-) TimerEvent: {}
+[68.860028] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/set_destination.h\n'}
+[68.938728] (-) TimerEvent: {}
+[69.016063] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/library_path.sh\n'}
+[69.039494] (-) TimerEvent: {}
+[69.128051] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/library_path.dsv\n'}
+[69.139679] (-) TimerEvent: {}
+[69.241037] (-) TimerEvent: {}
+[69.257765] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_c.so\n'}
+[69.341297] (-) TimerEvent: {}
+[69.443268] (-) TimerEvent: {}
+[69.447068] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_c.so" to ""\n'}
+[69.476979] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces\n'}
+[69.522518] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg\n'}
+[69.543448] (-) TimerEvent: {}
+[69.578485] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[69.644663] (-) TimerEvent: {}
+[69.733732] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv\n'}
+[69.745089] (-) TimerEvent: {}
+[69.811362] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail\n'}
+[69.845350] (-) TimerEvent: {}
+[69.904955] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__rosidl_typesupport_fastrtps_c.h\n'}
+[69.945641] (-) TimerEvent: {}
+[70.047246] (-) TimerEvent: {}
+[70.109301] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[70.147475] (-) TimerEvent: {}
+[70.249054] (-) TimerEvent: {}
+[70.284230] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[70.314308] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces\n'}
+[70.349365] (-) TimerEvent: {}
+[70.381328] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg\n'}
+[70.450482] (-) TimerEvent: {}
+[70.453106] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[70.550765] (-) TimerEvent: {}
+[70.611343] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv\n'}
+[70.651147] (-) TimerEvent: {}
+[70.682548] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail\n'}
+[70.751380] (-) TimerEvent: {}
+[70.763194] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__builder.hpp\n'}
+[70.851579] (-) TimerEvent: {}
+[70.953223] (-) TimerEvent: {}
+[70.954406] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__struct.hpp\n'}
+[71.053515] (-) TimerEvent: {}
+[71.147671] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__traits.hpp\n'}
+[71.153684] (-) TimerEvent: {}
+[71.255085] (-) TimerEvent: {}
+[71.357031] (-) TimerEvent: {}
+[71.394226] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__type_support.hpp\n'}
+[71.458177] (-) TimerEvent: {}
+[71.560735] (-) TimerEvent: {}
+[71.597595] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/set_destination.hpp\n'}
+[71.661690] (-) TimerEvent: {}
+[71.759986] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces\n'}
+[71.764159] (-) TimerEvent: {}
+[71.817509] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg\n'}
+[71.864420] (-) TimerEvent: {}
+[71.883357] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[71.964707] (-) TimerEvent: {}
+[72.048984] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv\n'}
+[72.064911] (-) TimerEvent: {}
+[72.109381] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail\n'}
+[72.163705] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/dds_fastrtps\n'}
+[72.167424] (-) TimerEvent: {}
+[72.262157] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[72.267606] (-) TimerEvent: {}
+[72.368910] (-) TimerEvent: {}
+[72.471189] (-) TimerEvent: {}
+[72.473070] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[72.571391] (-) TimerEvent: {}
+[72.673026] (-) TimerEvent: {}
+[72.702372] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[72.732069] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces\n'}
+[72.773279] (-) TimerEvent: {}
+[72.781362] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg\n'}
+[72.847031] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[72.874142] (-) TimerEvent: {}
+[72.975691] (-) TimerEvent: {}
+[73.004650] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv\n'}
+[73.062582] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail\n'}
+[73.075903] (-) TimerEvent: {}
+[73.134682] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__rosidl_typesupport_introspection_c.h\n'}
+[73.176097] (-) TimerEvent: {}
+[73.277602] (-) TimerEvent: {}
+[73.310048] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__type_support.c\n'}
+[73.377912] (-) TimerEvent: {}
+[73.479875] (-) TimerEvent: {}
+[73.509293] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[73.580129] (-) TimerEvent: {}
+[73.682055] (-) TimerEvent: {}
+[73.699001] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[73.732331] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_c.so\n'}
+[73.782971] (-) TimerEvent: {}
+[73.884513] (-) TimerEvent: {}
+[73.906292] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[73.938267] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces\n'}
+[73.984786] (-) TimerEvent: {}
+[73.991239] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv\n'}
+[74.054661] (turtlesim_interfaces) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail\n'}
+[74.085020] (-) TimerEvent: {}
+[74.127406] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__rosidl_typesupport_introspection_cpp.hpp\n'}
+[74.185321] (-) TimerEvent: {}
+[74.288018] (-) TimerEvent: {}
+[74.320621] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/include/turtlesim_interfaces/turtlesim_interfaces/srv/detail/set_destination__type_support.cpp\n'}
+[74.388233] (-) TimerEvent: {}
+[74.489693] (-) TimerEvent: {}
+[74.506242] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[74.589959] (-) TimerEvent: {}
+[74.692431] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[74.697448] (-) TimerEvent: {}
+[74.725089] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_cpp.so\n'}
+[74.798437] (-) TimerEvent: {}
+[74.895994] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[74.900663] (-) TimerEvent: {}
+[75.002358] (-) TimerEvent: {}
+[75.121740] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/pythonpath.sh\n'}
+[75.126661] (-) TimerEvent: {}
+[75.228471] (-) TimerEvent: {}
+[75.332432] (-) TimerEvent: {}
+[75.339084] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/pythonpath.dsv\n'}
+[75.432720] (-) TimerEvent: {}
+[75.523808] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces-0.0.0-py3.12.egg-info\n'}
+[75.535334] (-) TimerEvent: {}
+[75.637802] (-) TimerEvent: {}
+[75.660135] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[75.738171] (-) TimerEvent: {}
+[75.842220] (-) TimerEvent: {}
+[75.947089] (-) TimerEvent: {}
+[75.957446] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[76.047288] (-) TimerEvent: {}
+[76.151199] (-) TimerEvent: {}
+[76.260040] (-) TimerEvent: {}
+[76.286072] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[76.360326] (-) TimerEvent: {}
+[76.464918] (-) TimerEvent: {}
+[76.530434] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[76.565181] (-) TimerEvent: {}
+[76.667083] (-) TimerEvent: {}
+[76.714000] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces\n'}
+[76.767858] (-) TimerEvent: {}
+[76.778492] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv\n'}
+[76.868367] (-) TimerEvent: {}
+[76.893166] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv/_set_destination.py\n'}
+[76.969228] (-) TimerEvent: {}
+[77.071077] (-) TimerEvent: {}
+[77.159053] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv/_set_destination_s.c\n'}
+[77.171277] (-) TimerEvent: {}
+[77.272762] (-) TimerEvent: {}
+[77.365410] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv/__init__.py\n'}
+[77.375248] (-) TimerEvent: {}
+[77.477350] (-) TimerEvent: {}
+[77.535176] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.so\n'}
+[77.578649] (-) TimerEvent: {}
+[77.680770] (-) TimerEvent: {}
+[77.712387] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[77.781032] (-) TimerEvent: {}
+[77.866458] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[77.881331] (-) TimerEvent: {}
+[77.982659] (-) TimerEvent: {}
+[78.030021] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[78.083083] (-) TimerEvent: {}
+[78.184581] (-) TimerEvent: {}
+[78.193147] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[78.285865] (-) TimerEvent: {}
+[78.352256] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/_turtlesim_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[78.386145] (-) TimerEvent: {}
+[78.487461] (-) TimerEvent: {}
+[78.513383] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/__init__.py\n'}
+[78.587830] (-) TimerEvent: {}
+[78.689918] (-) TimerEvent: {}
+[78.792610] (-) TimerEvent: {}
+[78.895261] (-) TimerEvent: {}
+[78.998301] (-) TimerEvent: {}
+[79.099602] (-) TimerEvent: {}
+[79.200959] (-) TimerEvent: {}
+[79.256392] (turtlesim_interfaces) StdoutLine: {'line': b"Listing '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces'...\n"}
+[79.262355] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/__init__.py'...\n"}
+[79.269928] (turtlesim_interfaces) StdoutLine: {'line': b"Listing '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv'...\n"}
+[79.275163] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv/__init__.py'...\n"}
+[79.279638] (turtlesim_interfaces) StdoutLine: {'line': b"Compiling '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/srv/_set_destination.py'...\n"}
+[79.301509] (-) TimerEvent: {}
+[79.386320] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[79.401809] (-) TimerEvent: {}
+[79.504095] (-) TimerEvent: {}
+[79.606784] (-) TimerEvent: {}
+[79.710860] (-) TimerEvent: {}
+[79.760799] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[79.811041] (-) TimerEvent: {}
+[79.913065] (-) TimerEvent: {}
+[80.089608] (-) TimerEvent: {}
+[80.097947] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[80.190936] (-) TimerEvent: {}
+[80.293134] (-) TimerEvent: {}
+[80.373248] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[80.393425] (-) TimerEvent: {}
+[80.495832] (-) TimerEvent: {}
+[80.548130] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.so\n'}
+[80.596284] (-) TimerEvent: {}
+[80.698652] (-) TimerEvent: {}
+[80.800593] (-) TimerEvent: {}
+[80.843561] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages/turtlesim_interfaces/turtlesim_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[80.878333] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_py.so\n'}
+[80.901005] (-) TimerEvent: {}
+[81.003379] (-) TimerEvent: {}
+[81.084141] (turtlesim_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/libturtlesim_interfaces__rosidl_generator_py.so" to ""\n'}
+[81.103749] (-) TimerEvent: {}
+[81.205897] (-) TimerEvent: {}
+[81.250319] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/ament_index/resource_index/rust_packages/turtlesim_interfaces\n'}
+[81.306347] (-) TimerEvent: {}
+[81.408759] (-) TimerEvent: {}
+[81.479172] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust\n'}
+[81.509044] (-) TimerEvent: {}
+[81.541261] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/build.rs\n'}
+[81.609357] (-) TimerEvent: {}
+[81.697894] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/Cargo.toml\n'}
+[81.709679] (-) TimerEvent: {}
+[81.811230] (-) TimerEvent: {}
+[81.847300] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/src\n'}
+[81.911429] (-) TimerEvent: {}
+[81.917464] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/src/lib.rs\n'}
+[82.011632] (-) TimerEvent: {}
+[82.079098] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/src/srv\n'}
+[82.112862] (-) TimerEvent: {}
+[82.175213] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/src/srv/rmw.rs\n'}
+[82.213143] (-) TimerEvent: {}
+[82.314735] (-) TimerEvent: {}
+[82.378301] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/rust/src/srv.rs\n'}
+[82.415071] (-) TimerEvent: {}
+[82.516733] (-) TimerEvent: {}
+[82.552189] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/srv/SetDestination.idl\n'}
+[82.616988] (-) TimerEvent: {}
+[82.699986] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/srv/SetDestination.srv\n'}
+[82.717255] (-) TimerEvent: {}
+[82.819027] (-) TimerEvent: {}
+[82.901556] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlesim_interfaces\n'}
+[82.919654] (-) TimerEvent: {}
+[83.021758] (-) TimerEvent: {}
+[83.113517] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlesim_interfaces\n'}
+[83.122063] (-) TimerEvent: {}
+[83.223638] (-) TimerEvent: {}
+[83.285610] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.sh\n'}
+[83.323852] (-) TimerEvent: {}
+[83.408173] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.dsv\n'}
+[83.424330] (-) TimerEvent: {}
+[83.526066] (-) TimerEvent: {}
+[83.527628] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.sh\n'}
+[83.627388] (-) TimerEvent: {}
+[83.649640] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.dsv\n'}
+[83.727597] (-) TimerEvent: {}
+[83.775665] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.bash\n'}
+[83.828558] (-) TimerEvent: {}
+[83.902753] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.sh\n'}
+[83.928789] (-) TimerEvent: {}
+[84.025443] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.zsh\n'}
+[84.029743] (-) TimerEvent: {}
+[84.131205] (-) TimerEvent: {}
+[84.146470] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.dsv\n'}
+[84.231409] (-) TimerEvent: {}
+[84.271065] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.dsv\n'}
+[84.331627] (-) TimerEvent: {}
+[84.428784] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/ament_index/resource_index/packages/turtlesim_interfaces\n'}
+[84.432730] (-) TimerEvent: {}
+[84.534085] (-) TimerEvent: {}
+[84.636010] (-) TimerEvent: {}
+[84.675973] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_cExport.cmake\n'}
+[84.736398] (-) TimerEvent: {}
+[84.838959] (-) TimerEvent: {}
+[84.851030] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[84.939134] (-) TimerEvent: {}
+[85.041400] (-) TimerEvent: {}
+[85.043499] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[85.141701] (-) TimerEvent: {}
+[85.220826] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[85.242215] (-) TimerEvent: {}
+[85.343912] (-) TimerEvent: {}
+[85.445818] (-) TimerEvent: {}
+[85.482796] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_cppExport.cmake\n'}
+[85.546211] (-) TimerEvent: {}
+[85.648558] (-) TimerEvent: {}
+[85.654567] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[85.748821] (-) TimerEvent: {}
+[85.820394] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[85.849102] (-) TimerEvent: {}
+[85.950659] (-) TimerEvent: {}
+[86.020226] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[86.050994] (-) TimerEvent: {}
+[86.152467] (-) TimerEvent: {}
+[86.231187] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[86.252784] (-) TimerEvent: {}
+[86.354445] (-) TimerEvent: {}
+[86.442043] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[86.454758] (-) TimerEvent: {}
+[86.556550] (-) TimerEvent: {}
+[86.610259] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[86.657476] (-) TimerEvent: {}
+[86.759521] (-) TimerEvent: {}
+[86.793391] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[86.859716] (-) TimerEvent: {}
+[86.961671] (-) TimerEvent: {}
+[86.969514] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[87.061950] (-) TimerEvent: {}
+[87.157438] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[87.162104] (-) TimerEvent: {}
+[87.263829] (-) TimerEvent: {}
+[87.338285] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[87.364060] (-) TimerEvent: {}
+[87.465743] (-) TimerEvent: {}
+[87.524983] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_pyExport.cmake\n'}
+[87.566029] (-) TimerEvent: {}
+[87.667580] (-) TimerEvent: {}
+[87.690697] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/export_turtlesim_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[87.767802] (-) TimerEvent: {}
+[87.839036] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[87.868048] (-) TimerEvent: {}
+[87.969496] (-) TimerEvent: {}
+[87.999210] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[88.069781] (-) TimerEvent: {}
+[88.146320] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[88.170076] (-) TimerEvent: {}
+[88.271638] (-) TimerEvent: {}
+[88.420761] (-) TimerEvent: {}
+[88.525187] (-) TimerEvent: {}
+[88.529602] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[88.626050] (-) TimerEvent: {}
+[88.679896] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[88.726282] (-) TimerEvent: {}
+[88.820423] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[88.826495] (-) TimerEvent: {}
+[88.927956] (-) TimerEvent: {}
+[88.966953] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[89.029203] (-) TimerEvent: {}
+[89.124644] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[89.129313] (-) TimerEvent: {}
+[89.231547] (-) TimerEvent: {}
+[89.279442] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig.cmake\n'}
+[89.331776] (-) TimerEvent: {}
+[89.424712] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig-version.cmake\n'}
+[89.431978] (-) TimerEvent: {}
+[89.533747] (-) TimerEvent: {}
+[89.589186] (turtlesim_interfaces) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.xml\n'}
+[89.634032] (-) TimerEvent: {}
+[89.726634] (turtlesim_interfaces) CommandEnded: {'returncode': 0}
+[89.734333] (-) TimerEvent: {}
+[89.837282] (-) TimerEvent: {}
+[89.938882] (-) TimerEvent: {}
+[90.040341] (-) TimerEvent: {}
+[90.142990] (-) TimerEvent: {}
+[90.244805] (-) TimerEvent: {}
+[90.346361] (-) TimerEvent: {}
+[90.448201] (-) TimerEvent: {}
+[90.554418] (-) TimerEvent: {}
+[90.663723] (-) TimerEvent: {}
+[90.765750] (-) TimerEvent: {}
+[90.867908] (-) TimerEvent: {}
+[90.969877] (-) TimerEvent: {}
+[91.072606] (-) TimerEvent: {}
+[91.174709] (-) TimerEvent: {}
+[91.276469] (-) TimerEvent: {}
+[91.378410] (-) TimerEvent: {}
+[91.480303] (-) TimerEvent: {}
+[91.583251] (-) TimerEvent: {}
+[91.688158] (-) TimerEvent: {}
+[91.794129] (-) TimerEvent: {}
+[91.897846] (-) TimerEvent: {}
+[92.000711] (-) TimerEvent: {}
+[92.102383] (-) TimerEvent: {}
+[92.205688] (-) TimerEvent: {}
+[92.309237] (-) TimerEvent: {}
+[92.413055] (-) TimerEvent: {}
+[92.516449] (-) TimerEvent: {}
+[92.619111] (-) TimerEvent: {}
+[92.723105] (-) TimerEvent: {}
+[92.826146] (-) TimerEvent: {}
+[92.929319] (-) TimerEvent: {}
+[93.030917] (-) TimerEvent: {}
+[93.132390] (-) TimerEvent: {}
+[93.213234] (turtlesim_interfaces) JobEnded: {'identifier': 'turtlesim_interfaces', 'rc': 0}
+[93.232571] (-) TimerEvent: {}
+[93.234117] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+{
+  "package_name": "turtlesim_interfaces",
+  "output_dir": "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_generator_type_description/turtlesim_interfaces",
+  "idl_tuples": [
+    "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_adapter/turtlesim_interfaces:srv/SetDestination.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

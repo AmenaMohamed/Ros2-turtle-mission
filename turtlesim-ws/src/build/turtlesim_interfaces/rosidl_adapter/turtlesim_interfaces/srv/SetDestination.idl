@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlesim_interfaces/srv/SetDestination.srv
+// generated code does not contain a copyright notice
+
+
+module turtlesim_interfaces {
+  module srv {
+    struct SetDestination_Request {
+      float x;
+
+      float y;
+    };
+    struct SetDestination_Response {
+      boolean reply;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'action/NavigateTo.action'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:18 (rosidl_generate_interfaces)
+
+[0m

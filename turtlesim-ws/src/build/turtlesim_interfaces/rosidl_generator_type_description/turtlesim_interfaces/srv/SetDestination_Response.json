@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "turtlesim_interfaces/srv/SetDestination_Response",
+      "fields": [
+        {
+          "name": "reply",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "turtlesim_interfaces/srv/SetDestination_Response",
+      "hash_string": "RIHS01_83e7ba8f4ccb55f0c06bb619dd70668c8f8b35feb0dded7b98aebde3f0c7ceb2"
+    }
+  ]
+}

@@ -10,3 +10,9 @@ pub mod srv {
     pub mod rmw;
 }
 
+#[path = "action.rs"]
+mod action_idiomatic;
+pub mod action {
+    pub use super::action_idiomatic::*;
+    pub mod rmw;
+}

@@ -1,0 +1,25 @@
+[1.045s] Invoking command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces -- -j4 -l4
+[1.911s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.467s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.950s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.041s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.193s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.450s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.546s] -- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)
+[10.204s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[31.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[33.377s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake:117 (file):
+[33.396s]   file failed to open for writing (No such file or directory):
+[33.416s] 
+[33.434s]     /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
+[33.453s] Call Stack (most recent call first):
+[33.465s]   /opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake/rosidl_typesupport_introspection_cpp_generate_interfaces.cmake:69 (rosidl_write_generator_arguments)
+[33.477s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[33.488s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+[33.532s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[33.591s] 
+[33.637s] [0m
+[36.295s] gmake: *** [Makefile:829: cmake_check_build_system] Interrupt
+[36.545s] Invoked command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces -- -j4 -l4

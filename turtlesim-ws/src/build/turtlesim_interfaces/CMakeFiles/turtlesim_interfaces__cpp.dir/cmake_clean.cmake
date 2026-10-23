@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlesim_interfaces__cpp"
+  "rosidl_generator_cpp/turtlesim_interfaces/action/detail/navigate_to__builder.hpp"
+  "rosidl_generator_cpp/turtlesim_interfaces/action/detail/navigate_to__struct.hpp"
+  "rosidl_generator_cpp/turtlesim_interfaces/action/detail/navigate_to__traits.hpp"
+  "rosidl_generator_cpp/turtlesim_interfaces/action/detail/navigate_to__type_support.hpp"
+  "rosidl_generator_cpp/turtlesim_interfaces/action/navigate_to.hpp"
   "rosidl_generator_cpp/turtlesim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/turtlesim_interfaces/srv/detail/set_destination__builder.hpp"
   "rosidl_generator_cpp/turtlesim_interfaces/srv/detail/set_destination__struct.hpp"

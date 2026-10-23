@@ -24,19 +24,24 @@ class DestClient(Node):
         return self.reply.result()
 
 
-def main(args=None):
+def missionControl(args=None):
     rclpy.init(args=args)
 
     client = DestClient()
     coord = [r for r in input("Enter your name: ").split(",")]
     response = client.send_request(coord[1]), int(coord[2])
     client.get_logger().info(
-        'Result of add_two_ints: for %d + %d = %d' %
-        (int(sys.argv[1]), int(sys.argv[2]), response.sum))
+        'validting coordinated turned to be :', response.reply)
+
+    if response:
+        pass
+    else:
+        client.get_logger().info(
+                'pls re-enter a valid coordinates')
 
     client.destroy_node()
     rclpy.shutdown()
 
 
 if __name__ == '__main__':
-    main()
+    missionControl()

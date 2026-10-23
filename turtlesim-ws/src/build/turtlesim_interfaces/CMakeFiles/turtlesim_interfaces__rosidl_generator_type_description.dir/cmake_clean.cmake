@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description"
+  "rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json"
   "rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json"
 )
 

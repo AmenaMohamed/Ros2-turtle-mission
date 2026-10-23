@@ -12,7 +12,7 @@ class DestServer(Node):
 
     def verifyDest(self, request, response):
         response.reply = request.x + request.y
-        self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
+        self.get_logger().info('Incoming request\na: %d b: %d' % (request.x, request.y))
 
         return response
 

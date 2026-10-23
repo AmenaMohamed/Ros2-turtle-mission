@@ -3,6 +3,7 @@
   "output_dir": "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_generator_py/turtlesim_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
+    "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_adapter/turtlesim_interfaces:action/NavigateTo.idl",
     "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_adapter/turtlesim_interfaces:srv/SetDestination.idl"
   ],
   "ros_interface_dependencies": [
@@ -38,6 +39,11 @@
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl",
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
   ],
   "target_dependencies": [
@@ -54,6 +60,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_adapter/turtlesim_interfaces/action/NavigateTo.idl",
     "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_adapter/turtlesim_interfaces/srv/SetDestination.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
@@ -87,6 +94,11 @@
     "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
   ]
 }

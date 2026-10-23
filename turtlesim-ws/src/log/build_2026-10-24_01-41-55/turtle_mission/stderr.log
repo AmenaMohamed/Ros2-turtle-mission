@@ -1,0 +1,5 @@
+  File "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/action.py", line 2
+    float32 [] coordinates
+             ^
+SyntaxError: invalid syntax
+

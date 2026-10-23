@@ -1,2 +1,4 @@
+action/NavigateTo.action
+action/NavigateTo.idl
 srv/SetDestination.idl
 srv/SetDestination.srv

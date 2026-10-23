@@ -1,0 +1,35 @@
+[5.655s] Invoking command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission': PYTHONPATH=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_mission build --build-base /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build install --record /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log --install-scripts $base/lib/turtle_mission --single-version-externally-managed install_data
+[7.890s] running egg_info
+[8.003s] writing ../build/turtle_mission/turtle_mission.egg-info/PKG-INFO
+[8.030s] writing dependency_links to ../build/turtle_mission/turtle_mission.egg-info/dependency_links.txt
+[8.046s] writing entry points to ../build/turtle_mission/turtle_mission.egg-info/entry_points.txt
+[8.061s] writing requirements to ../build/turtle_mission/turtle_mission.egg-info/requires.txt
+[8.070s] writing top-level names to ../build/turtle_mission/turtle_mission.egg-info/top_level.txt
+[8.414s] reading manifest file '../build/turtle_mission/turtle_mission.egg-info/SOURCES.txt'
+[8.662s] writing manifest file '../build/turtle_mission/turtle_mission.egg-info/SOURCES.txt'
+[8.671s] running build
+[8.679s] running build_py
+[8.722s] copying turtle_mission/action.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission
+[8.814s] copying turtle_mission/DestValid.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission
+[8.908s] copying turtle_mission/missionControl.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission
+[9.002s] running install
+[9.037s] running install_lib
+[9.297s] copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission/action.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission
+[9.439s] copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission/DestValid.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission
+[9.582s] copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission/missionControl.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission
+[9.802s] byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/action.py to action.cpython-312.pyc
+[9.872s]   File "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/action.py", line 2
+[9.877s]     float32 [] coordinates
+[9.883s]              ^
+[9.889s] SyntaxError: invalid syntax
+[9.895s] 
+[9.920s] byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/DestValid.py to DestValid.cpython-312.pyc
+[10.211s] byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/missionControl.py to missionControl.cpython-312.pyc
+[10.422s] running install_data
+[10.597s] running install_egg_info
+[10.773s] removing '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission-0.0.0-py3.12.egg-info' (and everything under it)
+[11.207s] Copying ../build/turtle_mission/turtle_mission.egg-info to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission-0.0.0-py3.12.egg-info
+[12.393s] running install_scripts
+[13.818s] Installing missionControl script to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/turtle_mission
+[13.857s] writing list of installed files to '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log'
+[14.046s] Invoked command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission' returned '0': PYTHONPATH=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_mission build --build-base /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build install --record /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log --install-scripts $base/lib/turtle_mission --single-version-externally-managed install_data

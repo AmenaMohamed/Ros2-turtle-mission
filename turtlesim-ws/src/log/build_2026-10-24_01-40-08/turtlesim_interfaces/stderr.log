@@ -1,0 +1,12 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake:117 (file):
+  file failed to open for writing (No such file or directory):
+
+    /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/cmake/rosidl_typesupport_introspection_cpp_generate_interfaces.cmake:69 (rosidl_write_generator_arguments)
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:20 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:829: cmake_check_build_system] Interrupt

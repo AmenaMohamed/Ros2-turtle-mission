@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/turtle_mission/turtle_mission.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_mission/turtle_mission.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_mission/turtle_mission.egg-info/entry_points.txt
+writing requirements to ../build/turtle_mission/turtle_mission.egg-info/requires.txt
+writing top-level names to ../build/turtle_mission/turtle_mission.egg-info/top_level.txt
+reading manifest file '../build/turtle_mission/turtle_mission.egg-info/SOURCES.txt'
+writing manifest file '../build/turtle_mission/turtle_mission.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_mission/action.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission
+copying turtle_mission/DestValid.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission
+copying turtle_mission/missionControl.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission
+running install
+running install_lib
+copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission/action.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission
+copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission/DestValid.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission
+copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build/lib/turtle_mission/missionControl.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission
+byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/action.py to action.cpython-312.pyc
+byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/DestValid.py to DestValid.cpython-312.pyc
+byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission/missionControl.py to missionControl.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/turtle_mission/turtle_mission.egg-info to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages/turtle_mission-0.0.0-py3.12.egg-info
+running install_scripts
+Installing missionControl script to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/turtle_mission
+writing list of installed files to '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log'

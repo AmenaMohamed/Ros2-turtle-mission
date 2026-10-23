@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/action/_navigate_to_s.c.o"
+  "CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/action/_navigate_to_s.c.o.d"
   "CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/srv/_set_destination_s.c.o"
   "CMakeFiles/turtlesim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_interfaces/srv/_set_destination_s.c.o.d"
   "libturtlesim_interfaces__rosidl_generator_py.pdb"

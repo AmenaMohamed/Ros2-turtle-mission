@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlesim_interfaces/action/NavigateTo.action
+// generated code does not contain a copyright notice
+
+
+module turtlesim_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct NavigateTo_Goal {
+      float x;
+
+      float y;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct NavigateTo_Result {
+      boolean state;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct NavigateTo_Feedback {
+      float x;
+
+      float y;
+    };
+  };
+};

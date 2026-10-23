@@ -71,6 +71,8 @@ include /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training
 /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/turtlesim_interfaces__rs/CMakeFiles/turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/Cargo.toml
 /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/turtlesim_interfaces__rs/CMakeFiles/turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/srv.rs
 /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/turtlesim_interfaces__rs/CMakeFiles/turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/srv/rmw.rs
+/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/turtlesim_interfaces__rs/CMakeFiles/turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/action.rs
+/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/turtlesim_interfaces__rs/CMakeFiles/turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/action/rmw.rs
 
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/lib/rosidl_generator_rs/rosidl_generator_rs
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py
@@ -84,7 +86,9 @@ rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/r
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/msg_rmw.rs.em
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: rosidl_adapter/turtlesim_interfaces/action/NavigateTo.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: rosidl_adapter/turtlesim_interfaces/srv/SetDestination.idl
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: rosidl_adapter/turtlesim_interfaces/action/NavigateTo.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: rosidl_adapter/turtlesim_interfaces/srv/SetDestination.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
@@ -118,6 +122,11 @@ rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/s
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"
 	cd /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/turtlesim_interfaces__rs && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs --generator-arguments-file /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_generator_rs__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
@@ -134,8 +143,16 @@ rosidl_generator_rs/turtlesim_interfaces/rust/src/srv.rs: rosidl_generator_rs/tu
 rosidl_generator_rs/turtlesim_interfaces/rust/src/srv/rmw.rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/turtlesim_interfaces/rust/src/srv/rmw.rs
 
+rosidl_generator_rs/turtlesim_interfaces/rust/src/action.rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/turtlesim_interfaces/rust/src/action.rs
+
+rosidl_generator_rs/turtlesim_interfaces/rust/src/action/rmw.rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_rs/turtlesim_interfaces/rust/src/action/rmw.rs
+
 turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/Cargo.toml
 turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/build.rs
+turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/action.rs
+turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/action/rmw.rs
 turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/lib.rs
 turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/srv.rs
 turtlesim_interfaces__rs: rosidl_generator_rs/turtlesim_interfaces/rust/src/srv/rmw.rs

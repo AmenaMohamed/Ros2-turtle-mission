@@ -1,0 +1,170 @@
+[1.629s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.630s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7298fac4fe60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7298fab50ef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7298fab50ef0>>, mixin_verb=('build',))
+[1.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.941s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extensions ['ignore', 'ignore_ament_install']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extension 'ignore'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extension 'ignore_ament_install'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extensions ['colcon_pkg']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extension 'colcon_pkg'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extensions ['colcon_meta']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extension 'colcon_meta'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extensions ['ros']
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_mission) by extension 'ros'
+[2.281s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_mission' with type 'ros.ament_python' and name 'turtle_mission'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extension 'ignore_ament_install'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extensions ['colcon_pkg']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extension 'colcon_pkg'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extensions ['colcon_meta']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extension 'colcon_meta'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extensions ['ros']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_interfaces) by extension 'ros'
+[2.338s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlesim_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_interfaces'
+[2.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/amena/ros2_ws/install
+[2.444s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[2.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'cmake_target' from command line to 'None'
+[2.606s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'cmake_clean_cache' from command line to 'False'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'cmake_clean_first' from command line to 'False'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'cmake_force_configure' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'ament_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'catkin_cmake_args' from command line to 'None'
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'turtle_mission' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.616s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_mission' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission', 'merge_install': False, 'path': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission', 'symlink_install': False, 'test_result_base': None}
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.622s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.625s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.633s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.634s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.636s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces', 'merge_install': False, 'path': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.637s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.645s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission' with build type 'ament_python'
+[2.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_mission', 'ament_prefix_path')
+[2.657s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/hook/ament_prefix_path.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/hook/ament_prefix_path.dsv'
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/hook/ament_prefix_path.sh'
+[2.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.848s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces' with build type 'ament_cmake'
+[2.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces'
+[2.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.716s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission'
+[3.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces -- -j4 -l4
+[8.236s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, test, saveopts, register, build, install_headers, bdist_dumb, extract_messages, rotate, alias, compile_catalog, install_data, upload_docs, bdist_rpm, clean, editable_wheel, symlink_data, bdist_egg, update_catalog, install, install_egg_info, init_catalog, upload, build_py, sdist, egg_info, build_ext, bdist, setopt, develop, bdist_wheel, check, install_lib, easy_install, dist_info, install_scripts, build_scripts
+[8.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission': PYTHONPATH=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_mission build --build-base /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build install --record /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log --install-scripts $base/lib/turtle_mission --single-version-externally-managed install_data
+[16.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtle_mission' returned '0': PYTHONPATH=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_mission build --build-base /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/build install --record /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtle_mission/install.log --install-scripts $base/lib/turtle_mission --single-version-externally-managed install_data
+[16.705s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission' for CMake module files
+[16.858s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission' for CMake config files
+[17.096s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib'
+[17.108s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/bin'
+[17.112s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/pkgconfig/turtle_mission.pc'
+[17.118s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/lib/python3.12/site-packages'
+[17.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_mission', 'pythonpath')
+[17.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/hook/pythonpath.ps1'
+[17.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/hook/pythonpath.dsv'
+[17.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/hook/pythonpath.sh'
+[17.251s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/bin'
+[17.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_mission)
+[17.258s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/package.ps1'
+[17.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/package.dsv'
+[17.335s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/package.sh'
+[17.372s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/package.bash'
+[17.445s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/turtle_mission/package.zsh'
+[17.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtle_mission/share/colcon-core/packages/turtle_mission)
+[39.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[39.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[39.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces -- -j4 -l4
+[39.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_interfaces)
+[39.710s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces' for CMake module files
+[41.404s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces' for CMake config files
+[42.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_interfaces', 'cmake_prefix_path')
+[42.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/cmake_prefix_path.ps1'
+[42.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/cmake_prefix_path.dsv'
+[43.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/cmake_prefix_path.sh'
+[43.382s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib'
+[43.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_interfaces', 'ld_library_path_lib')
+[43.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/ld_library_path_lib.ps1'
+[43.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/ld_library_path_lib.dsv'
+[43.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/ld_library_path_lib.sh'
+[43.576s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/bin'
+[43.580s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/pkgconfig/turtlesim_interfaces.pc'
+[43.592s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/lib/python3.12/site-packages'
+[43.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_interfaces', 'pythonpath')
+[43.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/pythonpath.ps1'
+[43.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/pythonpath.dsv'
+[43.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/hook/pythonpath.sh'
+[43.757s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/bin'
+[43.761s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.ps1'
+[43.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.dsv'
+[43.851s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.sh'
+[43.895s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.bash'
+[43.973s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/turtlesim_interfaces/package.zsh'
+[44.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/turtlesim_interfaces/share/colcon-core/packages/turtlesim_interfaces)
+[44.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[44.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[44.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[44.168s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[44.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[44.887s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[44.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[44.897s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[44.907s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[44.913s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/local_setup.ps1'
+[44.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/_local_setup_util_ps1.py'
+[45.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/setup.ps1'
+[45.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/local_setup.sh'
+[45.120s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/_local_setup_util_sh.py'
+[45.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/setup.sh'
+[45.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/local_setup.bash'
+[45.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/setup.bash'
+[45.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/local_setup.zsh'
+[45.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/install/setup.zsh'

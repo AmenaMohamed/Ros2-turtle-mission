@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/action/detail/navigate_to__type_support.c.o"
+  "CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/action/detail/navigate_to__type_support.c.o.d"
   "CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/srv/detail/set_destination__type_support.c.o"
   "CMakeFiles/turtlesim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_interfaces/srv/detail/set_destination__type_support.c.o.d"
   "libturtlesim_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libturtlesim_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/turtlesim_interfaces/action/detail/navigate_to__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtlesim_interfaces/action/detail/navigate_to__type_support.c"
   "rosidl_typesupport_introspection_c/turtlesim_interfaces/srv/detail/set_destination__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/turtlesim_interfaces/srv/detail/set_destination__type_support.c"
 )

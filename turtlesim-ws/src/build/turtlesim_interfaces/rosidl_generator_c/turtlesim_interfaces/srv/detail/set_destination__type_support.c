@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "turtlesim_interfaces/srv/detail/set_destination__type_support.h"
 #include "turtlesim_interfaces/srv/detail/set_destination__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "turtlesim_interfaces/srv/detail/set_destination__functions.h"
-#include "turtlesim_interfaces/srv/detail/set_destination__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

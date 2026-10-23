@@ -1,6 +1,7 @@
 {
   "package_name": "turtlesim_interfaces",
   "non_idl_tuples": [
+    "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces:action/NavigateTo.action",
     "/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/turtlesim_interfaces:srv/SetDestination.srv"
   ]
 }

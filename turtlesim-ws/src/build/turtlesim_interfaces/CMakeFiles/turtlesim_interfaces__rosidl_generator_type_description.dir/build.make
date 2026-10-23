@@ -66,15 +66,21 @@ include CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description.dir/c
 # Include the progress variables for this target.
 include CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description.dir/progress.make
 
+CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json
 CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json
 
-rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
-rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json: rosidl_adapter/turtlesim_interfaces/srv/SetDestination.idl
+rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json: rosidl_adapter/turtlesim_interfaces/action/NavigateTo.idl
+rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json: rosidl_adapter/turtlesim_interfaces/srv/SetDestination.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Navigation-training/Task1-ROS2/Ros2-turtle-mission/turtlesim-ws/src/build/turtlesim_interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json: rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json
+
 turtlesim_interfaces__rosidl_generator_type_description: CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description
+turtlesim_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/turtlesim_interfaces/action/NavigateTo.json
 turtlesim_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/turtlesim_interfaces/srv/SetDestination.json
 turtlesim_interfaces__rosidl_generator_type_description: CMakeFiles/turtlesim_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : turtlesim_interfaces__rosidl_generator_type_description
